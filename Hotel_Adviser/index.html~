@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Donut Whole | Vegan Donut Shoope</title>
-		<meta name="description" content="Donut Whole is a (fictional) Vehan Donut Shoope based in Sunny Southern California.">
-
+		<title>Hotel Advisor | Simple way to find your dream</title>
+		<meta name="description" content="Hotel Advisor is the simple page where you can find information about all hotels in your country">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
-		
 		<link rel="stylesheet" href="css/normalize.css">
-
-		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/styles.css">
-
 		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
 		<script src="js/modernizr.js"></script>
 
-		
 	</head>
 	<body>
 	
@@ -22,49 +16,49 @@
 			<header class="main">
 				<nav>
 					<ul>
-						<li><a href="">Location</a></li>
-						<li><a href="">Menu</a></li>
+						<li><a href="hotels_list.html">Hotels list</a></li>
+						<li><a href="">Add hotel</a></li>
 
-						<li id="logo"><a href="">Donut Whole</a></li>
+						<!-- <li id="logo"><a href="">Hotel Advisor</a></li> -->
 
-						<li><a href="">Recipes</a></li>
-						<li><a href="">Contact us</a></li>
+						<li><a href="">Hotels reviews</a></li>
+						<li><a href="">Registration</a></li>
 					</ul>
 				</nav>
 			</header>
 
-		</div><!--container -->
+		</div>
 
 		<div id="hero">
 			<div class="container">
-				<img src="images/donut-shoppe.png" alt="Donut Whole Storefront">
-				<p class="large-ribbon">Fresh Whole Ingredients</p>
-			</div><!--end container -->
+				<img src="images/hotel_man.jpg" alt="Hotel man">
+				<!-- <p class="large-ribbon">Cheep Beautiful Richly</p> -->
+			</div>
 
 
-		</div><!-- end hero -->
+		</div>
 
 		<div class="container">
 			<div id="whole-story" class="clearfix">
-				<h1>The <em>Whole</em> Story</h1>
-				<p class="lead">We want to show the world what a <strong>real</strong> donut tastes like!</p>
+				<h1><em>We</em> Recommend</h1>
+				<p class="lead">We want to show people what is <strong>really</strong> worth paying money for</p>
 				<div id="story-excerpt">
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. <a href="">Read more about our story here.</a></p>
-				</div><!--end story-excerpt -->
+				</div>
 
 				<div id="best-donut">
-					<h3>Best Donut in California!</h3>
-					<p>Well, look at that! We were voted #1 donut shop in California in 2016.</p>
+					<h3>Best Hotels in California!</h3>
+					<p>Well, look at that! We were voted #1 hotels in California in 2018.</p>
 
-				</div><!-- end best-donut -->
-			</div><!-- end whole-story -->
+				</div>
+			</div>
 
 			<hr>
 
 			<div id="news-events" class="clearfix">
 
 				<div id="articles">
-					<h2>News, Events &amp; Such</h2>
+					<h2>5 Best Hotels</h2>
 
 					<article class="news">
 						<header>
@@ -103,29 +97,26 @@
 				</div><!-- end article -->
 
 				<div id="feature-image"> 
-					<img src="images/assorted-donuts.png" alt="Tasty Assorted Donuts">
+					<!-- <img src="images/assorted-donuts.png" alt="Tasty Assorted Donuts"> -->
 
 				</div>
 
-			</div><!-- end news-events -->
+			</div>
 			<hr>
-		</div><!-- end container -->
+		</div>
 
 		<footer class="main">
 			<div class="container clearfix">
 
 				<div id="uncopyright">
-					<p>Uncopyright &copy; 2016 <strong>Igor Bilenko</strong></p>
-					<p>Please recycle this code responsibly</p>
+					<p>Uncopyright &copy; 2018 <strong>Team: trains. For JetRuby</strong></p>
 
-				</div><!-- end uncopyright -->
+				</div>
 
 				<div id="credits">
 					<p>Sustainabily coded with love by <a href="http://vk.com/">Igor</a></p> 
-
-
-				</div><!-- end credits -->
-			</div><!-- end container -->
+				</div>
+			</div>
 		</footer>
 		
 	</body>

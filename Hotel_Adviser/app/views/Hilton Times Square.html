@@ -1,0 +1,90 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<title>Hilton Times Square</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="../../public/js/jquery-1.6.2.min.js"><\/script>');</script>
+		<link href="../../public/css/jquery.rating.css" rel="stylesheet" type="text/css" />
+		<link href="../../public/css/styles.css" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="../../public/js/jquery.rating-2.0.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+				$('#rating_1').rating({
+					fx: 'full',
+			        image: '../../public/images/stars.png',
+			        loader: '../../public/images/ajax-loader.gif',
+					url: 'rating.php',  //Адрес страницы, на которую будет отправлен AJAX запрос с результатом голосования
+			        callback: function(responce){
+			            
+			            this.vote_success.fadeOut(2000);
+			        }
+				});
+			})
+</script>
+	</head>
+<form>
+<body>
+<div class="container">
+			<header class="main">
+				<a><h1><em>Hotel Adviser</em></h1></a>
+				<nav>
+					<ul>
+						<li><a href="../../public/index.html">Main page</a></li>
+						<li><a href="hotels_list.html">Hotels list</a></li>
+						<li><a href="reg_form.html">Registration</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		</div>
+  <div class="text">
+     <h3>Hilton Times Square</h3>
+	 <p><img  src="../../public/images/Hilton.png" height="400" width="500" ></p>
+	 <hr>
+	 <p>About Hotel:</p>
+	 <p>Denihan's landmark Beaux Arts hotel exudes elegance from head to toe. This graceful Emery Roth building features sophisticated spaces that feel more like upscale apartments. In-room kitchenettes, exceptional service, and Geoffrey Zakarian's acclaimed restaurant and bar add to the pied-à-terre experience.
+		
+	</p>
+		Write your comment, please 
+		<form action="mailto:igor.scour@list.ru" method="post" name="commentform" id="commentform">
+		<hr>
+			<label for="name">ФИО: </label>
+            <div>
+            	<input type="text" name="name" id="name"/>
+            </div>
+			<label for="e-mail">E-mail: </label>
+                <div>
+                  	<input type="email" name="e-mail" id="e-mail"/>
+                </div>
+			<p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+			</p>
+			
+			<div id="rating_1">
+        		<input type="hidden" name="vote-id" value="1"/>
+
+            </div>
+
+			<p><input name="submit" type="submit" id="submit" value="Send" />
+			</p>
+		</form>
+  </div>
+</form>
+</div>
+<hr>
+<footer class="main">
+			<div class="container clearfix">
+
+				<div id="uncopyright">
+					<p>Uncopyright &copy; 2018 <strong>Team: trains. For JetRuby</strong></p>
+
+				</div>
+
+				<div id="credits">
+					<p>Sustainabily coded with love by <a href="http://vk.com/">Igor</a></p> 
+				</div>
+			</div>
+		</footer>
+
+</html>

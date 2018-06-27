@@ -1,12 +1,7 @@
 /* ===============================
    Author: Igor Bilenko
-   Date:   05.04.2016
-   
-   Notes:
-   Hand coded for Build a Website
-   from Scratch with HTML & CSS
-   by Brad Hussey
-   
+   Date:   25.06.2018
+
    Colour Palette:
    ---------------
    Light Cream:		#f2f3ee
@@ -58,6 +53,8 @@ h2 {
 
 h3 {
    margin: 0;
+   text-align: center;
+   padding: 5px 0;
 }
 
 p.lead {
@@ -133,6 +130,25 @@ header nav ul li#logo a:hover {
    padding: 0;
    background: url('../images/logo-hover.png') center center no-repeat;
 }
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+caption, th, td {
+text-align:left;
+font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}
+
+
+
 /* Hero */
 
 #hero {
@@ -170,7 +186,7 @@ header nav ul li#logo a:hover {
 /* News & Events */
 
 #articles {
-   width: 370px;
+   width: 924px;
    float: left;
    margin-right: 24px;
 }
@@ -182,24 +198,11 @@ header nav ul li#logo a:hover {
 
 #news-events article {
    margin: 20px 0;
-   padding-left: 55px;
-}
-
-#news-events article.news {
-   background: url('../images/icon-news.png') top left no-repeat;
-}
-
-#news-events article.event {
-   background: url('../images/icon-calendar.png') top left no-repeat;
-}
-
-#news-events header time {
-   color: #d17f38;
-   font-size: 12px;
 }
 
 #news-events section.excerpt {
    margin: 10px 0;
+   text-align: justify;
 }
 
 #news-events footer {
@@ -242,6 +245,99 @@ footer.main a:hover {
 	height: 0;
 }
 
+.features-table
+{
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: separate;
+  border: 0;
+  border-spacing: 0;
+  text-shadow: 0 1px 0 #fff;
+  color: #2a2a2a;
+  background: #fafafa;
+  background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff); /* Firefox 3.6 */
+  background-image: -webkit-gradient(linear,center bottom,center top,from(#fff),color-stop(0.5, #eaeaea),to(#fff));
+  margin-top:20px;
+  margin-bottom:20px;
+}
+ 
+.features-table td
+{
+  height: 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid #cdcdcd;
+  box-shadow: 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+ 
+.features-table tbody td
+{
+  text-align: center;
+  width: 150px;
+}
+ 
+ 
+.features-table td.grey
+{
+  background: #efefef;
+  background: rgba(144,144,144,0.15);
+  border-right: 1px solid white;
+}
+ 
+
+ 
+.features-table td:nowrap
+{
+  white-space: nowrap;
+}
+ 
+.features-table thead td
+{
+  font-size: 120%; 
+  font-weight: bold;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 1px solid #eaeaea;
+}
+ 
+.features-table tfoot td
+{
+  font-size: 120%; 
+  font-weight: bold;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom: 1px solid #dadada;
+}
+
+div.text {
+  font-size: 20px;
+}
+
+h2.center-h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.best-5 {
+  width: 370px;
+  float: left;
+}
+
+article#test-m-1,article#test-m-2 {
+  margin-right: 184px;
+}
+
+div.text {
+  text-align: center;
+}
 
 * html .group             { zoom: 1; } /* IE6 */
 *:first-child+html .group { zoom: 1; } /* IE7 */
